@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-secondary text-[22px] text-secondary;
+}
+
+a {
+  @apply text-[20px] hover:text-accent transition-all duration-300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-primary text-primary;
+}
+
+.h1 {
+  @apply text-[40px] lg:text-[56px] leading-none;
+}
+.h2 {
+  @apply text-[40px] leading-tight;
+}
+.h3 {
+  @apply text-[22px];
+}
+.btn {
+  @apply h-[55px] text-white px-[30px] duration-300 rounded-[18px] flex transition-all items-center gap-2;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary-hover;
+}
+.btn-accent {
+  @apply bg-accent hover:bg-accent-hover;
+}
+
+p {
+  @apply text-[16px];
+}
+
+.opened-nav {
+    @apply p-4 h-[245px];
+}
